@@ -286,7 +286,7 @@ will be needed to enable SSH access.
 $ git submodule update             # make sure buildroot is up to date
 $ make                             # lists all available options
 $ export SKIFF_WORKSPACE=default   # optional: supports multiple SKIFF_CONFIG at once
-$ export SKIFF_CONFIG=pi/4,skiff/core
+$ export SKIFF_CONFIG=pi/5,skiff/core,ave/env,util/noserial
 $ make configure                   # configure the system
 $ make compile                     # build the system
 ```
